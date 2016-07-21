@@ -2,7 +2,7 @@ import query from './btLogoQuery';
 
 const notify = (companyName,blueTailBlobs) => {
   blueTailBlobs.forEach((blueTailBlob)=>{
-    set(blueTailBlob, companyName);
+    set(blueTailBlob, blueTailBlob.id);
   });
 };
 
